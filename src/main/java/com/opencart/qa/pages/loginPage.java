@@ -21,6 +21,7 @@ public class loginPage
 	private By pw = By.xpath("//input[@name='password']");
 	private By loginBtn = By.xpath("//input[@type='submit' and @value='Login']");
 	
+	
 	public String getCurrentPageURL()
 	{
 		return driver.getCurrentUrl();
